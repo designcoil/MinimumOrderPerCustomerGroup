@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Designcoil_MinimumOrder>
+            <version>0.1.0</version>
+        </Designcoil_MinimumOrder>
+    </modules>
+    <global>
+        <helpers>
+            <minimumorder>
+                <class>Designcoil_MinimumOrder_Helper</class>
+            </minimumorder>
+        </helpers>
+        <models>
+            <sales>
+                <rewrite>
+                    <quote_address>Designcoil_MinimumOrder_Model_Sales_Quote_Address</quote_address>
+                </rewrite>
+            </sales>
+            <sales>
+                <rewrite>
+                    <quote>Designcoil_MinimumOrder_Model_Sales_Quote</quote>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+</config> 

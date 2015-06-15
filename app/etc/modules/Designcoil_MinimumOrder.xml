@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Designcoil_MinimumOrder>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>0.1.0</version>
+            <depends>
+                <Mage_Checkout/>
+                <Mage_Sales />
+            </depends>
+        </Designcoil_MinimumOrder>
+    </modules>
+</config>
